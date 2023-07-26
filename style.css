@@ -14,8 +14,26 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-template-rows: 150px;
-  grid-auto-rows: 100px;
-  gap: 10px 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-areas: 
+                  "header header header" 
+                  "sidebar body body" 
+                  "footer footer footer"
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.body {
+  grid-area: body;
+}
+
+.footer {
+  grid-area: footer;
 }/*# sourceMappingURL=style.css.map */
