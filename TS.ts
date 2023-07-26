@@ -2,6 +2,8 @@
 
 // Generics
 
+/*
+
 function logTime<T>(num: T): T{
     console.log(new Date());
     return num
@@ -21,3 +23,9 @@ logInfo('Dima');
 interface myInterface {
     transform: <T, F>(data: T) => F
 }
+
+*/
+
+
+
+
